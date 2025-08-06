@@ -47,7 +47,7 @@ export default function DisclaimerModal() {
           By proceeding further and clicking on the "I AGREE" button below, I acknowledge that I of my own accord wish to know more about Manu Philip & Company for my own information and use. I further acknowledge that there has been no solicitation, invitation or inducement of any sort whatsoever from Manu Philip & Company or any of its members.
         </p>
         <p style={{ textAlign: 'justify' }}>
-          Manu Philip & Company is regulated by the Institute of Chartered Accountants of India ('ICAI') and this website has been developed by adhering to the guidelines prescribed by it. While every attempt has been made to comply with these guidelines in letter and in spirit, inadvertent non-compliances may have occurred. We would be deeply obliged if you were to bring such non-compliances, if any, to our notice by contacting us at <strong>your email</strong>.
+          Manu Philip & Company is regulated by the Institute of Chartered Accountants of India ('ICAI') and this website has been developed by adhering to the guidelines prescribed by it. While every attempt has been made to comply with these guidelines in letter and in spirit, inadvertent non-compliances may have occurred. We would be deeply obliged if you were to bring such non-compliances, if any, to our notice by contacting us at <strong>mp@camanuphilip.com</strong>.
         </p>
         <button onClick={handleAgree}>I AGREE</button>
       </div>
