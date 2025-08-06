@@ -1,0 +1,98 @@
+/* ==== Base Styles ==== */
+body {
+  background-color: #F5F3EF; /* warm beige / off-white */
+  color: #212121;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* ==== Headings ==== */
+h1, h2, h3, h4 {
+  color: #5D4037; /* dark wood brown */
+  font-weight: 600;
+}
+
+/* ==== Navbar ==== */
+.navbar {
+  background-color:#F5F3EF !important;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  color: #5D4037 !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #5D4037 !important;
+}
+
+.nav-link:hover {
+  color: #2E7D32 !important;
+}
+
+/* ==== Buttons ==== */
+.btn-primary {
+  background-color: #2E7D32 !important; /* dark green */
+  border-color: #2E7D32 !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #256528 !important;
+  border-color: #256528 !important;
+}
+
+/* ==== Section Padding ==== */
+section {
+  padding: 60px 0;
+}
+
+/* ==== Hero Section Override ==== */
+.hero-section {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+.custom-contact-btn {
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.custom-contact-btn:hover {
+  background-color: #2f4e38; /* darker monstera leaf green on hover */
+  border-color: #2f4e38;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+#about {
+  background-color: #F5F3EF !important;
+}
+#services{
+    background-color: '#FFF' !important;
+}
+#team {
+  background-color: #F5F3EF !important;
+}
+
+section {
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.service-card {
+  background-color: #F5F3EF;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: justify;
+}
+
+.service-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
