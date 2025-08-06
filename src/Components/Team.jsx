@@ -3,6 +3,7 @@ import team1 from "../assets/images/Manu.jpg";
 import team2 from "../assets/images/Bisna.jpg";
 import team3 from "../assets/images/Fasna.jpg";
 import team4 from "../assets/images/Safana.jpg";
+import team5 from "../assets/images/Alina.jpg";
 
 function Team() {
     return (
@@ -48,9 +49,8 @@ function Team() {
                     </div>
 
                 </div>
-
                 <div className="row justify-content-center">
-                    <div className="col-md-4 mb-4">
+                    <div className="col-md-3 mb-4">
                         <div className="card shadow border-0">
                             <img
                                 src={team2}
@@ -62,14 +62,13 @@ function Team() {
                                     objectFit: 'cover'
                                 }}
                             />
-
                             <div className="card-body text-center">
                                 <h5 className="card-title">Bisna M B</h5>
                                 <p className="card-text">Trainee</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-4">
+                    <div className="col-md-3 mb-4">
                         <div className="card shadow border-0">
                             <img
                                 src={team3}
@@ -87,7 +86,7 @@ function Team() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-4">
+                    <div className="col-md-3 mb-4">
                         <div className="card shadow border-0">
                             <img
                                 src={team4}
@@ -105,7 +104,30 @@ function Team() {
                             </div>
                         </div>
                     </div>
+                    <div className="col-md-3 mb-4">
+                        <div className="card shadow border-0">
+                            <img
+                                src={team5}
+                                className="card-img-top"
+                                alt="Team member 5"
+                                style={{
+                                    width: '100%',
+                                    height: '280px',
+                                    objectFit: 'cover'
+                                }}
+                            />
+                            <div className="card-body text-center">
+                                <h5 className="card-title">Alina Job</h5>
+                                <p className="card-text">Administrative Assistant</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+
+
+
             </div>
         </section>
     );
