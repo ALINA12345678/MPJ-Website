@@ -1,5 +1,6 @@
 import React from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
+import DisclaimerModal from './Components/Disclaimer';
 import MyNavbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Services from './Components/Services';
@@ -10,6 +11,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <>
+      <DisclaimerModal/>
       <MyNavbar/>
       <Hero/>
       <About/>
