@@ -31,13 +31,13 @@ function Team() {
                                 <blockquote className="blockquote mb-3" style={{ fontSize: "1rem" }}>
                                     <p className="mb-0">"Excellence isn’t a skill — it’s an attitude."</p>
                                 </blockquote>
-                                <p>
+                                <p style={{ textAlign: "justify" }}>
                                     <strong>Manu Philip Joseph</strong> is a Chartered Accountant based in Kochi, Kerala with over 7 years of experience in the field of accounting, auditing, and financial advisory. He holds a B.Com degree and has completed the Certificate Course on Public Finance & Government Accounting from ICAI. He also holds the DISA (Diploma in Information Systems Audit) qualification.
                                 </p>
-                                <p>
+                                <p style={{ textAlign: "justify" }}>
                                     He passed the Chartered Accountancy exam in 2021 and currently leads his own firm, offering a range of professional services with a focus on audit, taxation, and compliance.
                                 </p>
-                                <p>
+                                <p style={{ textAlign: "justify" }}>
                                     Beyond numbers, he is an active Toastmaster, refining his public speaking and leadership skills.
                                 </p>
 
