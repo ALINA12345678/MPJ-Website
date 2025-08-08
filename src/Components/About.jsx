@@ -31,14 +31,14 @@ function About() {
                                 alt="Office 1"
                                 className="img-fluid rounded shadow"
                                 style={{ maxWidth: "48%", height: "auto" }}
-                                loading="lazy"
+                                
                             />
                             <img
                                 src={img2}
                                 alt="Office 2"
                                 className="img-fluid rounded shadow"
                                 style={{ maxWidth: "48%", height: "auto" }}
-                                loading="lazy"
+                                
                             />
                         </div>
                     </div>
