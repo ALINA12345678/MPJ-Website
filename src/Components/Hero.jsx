@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImg from '../assets/images/office2.webp';
+import heroImg from '../assets/images/office2.jpg';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 
 function Hero() {

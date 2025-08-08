@@ -1,9 +1,9 @@
 import React from "react";
-import team1 from "../assets/images/Manu.webp";
-import team2 from "../assets/images/Bisna.webp";
-import team3 from "../assets/images/Fasna.webp";
-import team4 from "../assets/images/Safana.webp";
-import team5 from "../assets/images/Alina.webp";
+import team1 from "../assets/images/Manu.jpg";
+import team2 from "../assets/images/Bisna.jpg";
+import team3 from "../assets/images/Fasna.jpg";
+import team4 from "../assets/images/Safana.jpg";
+import team5 from "../assets/images/Alina.jpg";
 
 function Team() {
     return (
