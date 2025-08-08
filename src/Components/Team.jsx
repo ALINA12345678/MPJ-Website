@@ -1,9 +1,9 @@
 import React from "react";
-import team1 from "../assets/images/Manu.jpg";
-import team2 from "../assets/images/Bisna.jpg";
-import team3 from "../assets/images/Fasna.jpg";
-import team4 from "../assets/images/Safana.jpg";
-import team5 from "../assets/images/Alina.jpg";
+import team1 from "../assets/images/Manu.webp";
+import team2 from "../assets/images/Bisna.webp";
+import team3 from "../assets/images/Fasna.webp";
+import team4 from "../assets/images/Safana.webp";
+import team5 from "../assets/images/Alina.webp";
 
 function Team() {
     return (
@@ -17,7 +17,7 @@ function Team() {
                     {/* Image Column */}
                     <div className="col-md-4 mb-4 d-flex">
                         <div className="card shadow border-0 w-100">
-                            <img src={team1} className="card-img-top" alt="Team member 1" />
+                            <img src={team1} className="card-img-top" alt="Team member 1" loading="lazy"/>
                             <div className="card-body text-center">
                                 <h5 className="card-title">Manu Philip</h5>
                                 <p className="card-text">Founder & Chartered Accountant</p>
@@ -61,6 +61,7 @@ function Team() {
                                     height: '280px',
                                     objectFit: 'cover'
                                 }}
+                                loading="lazy"
                             />
                             <div className="card-body text-center">
                                 <h5 className="card-title">Bisna M B</h5>
@@ -79,6 +80,7 @@ function Team() {
                                     height: '280px',
                                     objectFit: 'cover'
                                 }}
+                                loading="lazy"
                             />
                             <div className="card-body text-center">
                                 <h5 className="card-title">Fasnamol K</h5>
@@ -97,6 +99,7 @@ function Team() {
                                     height: '280px',
                                     objectFit: 'cover'
                                 }}
+                                loading="lazy"
                             />
                             <div className="card-body text-center">
                                 <h5 className="card-title">Fathima Safana P.C</h5>
@@ -115,6 +118,7 @@ function Team() {
                                     height: '280px',
                                     objectFit: 'cover'
                                 }}
+                                loading="lazy"
                             />
                             <div className="card-body text-center">
                                 <h5 className="card-title">Alina Job</h5>
