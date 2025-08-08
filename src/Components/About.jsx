@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from '../assets/images/office1.webp';
-import img2 from '../assets/images/office2.webp';
+import img1 from '../assets/images/office1.jpg';
+import img2 from '../assets/images/office2.jpg';
 
 function About() {
     return (
